@@ -1,0 +1,22 @@
+.icon {
+  width: 100px; /* アイコンの幅 */
+  height: 100px; /* アイコンの高さ */
+  background-image: url('sprite.png'); /* スプライト画像のパス */
+  display: inline-block; /* インラインブロックに設定 */
+}
+
+.icon.home {
+  background-position: 0 0; /* ホームアイコン */
+}
+
+.icon.search {
+  background-position: -100px 0; /* サーチアイコン */
+}
+
+.icon.mail {
+  background-position: 0 -100px; /* メールアイコン */
+}
+
+.icon.settings {
+  background-position: -100px -100px; /* セッティングアイコン */
+}

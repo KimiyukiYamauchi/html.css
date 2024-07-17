@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+.btn{
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.btn a{
+  display: block;
+  overflow: hidden;
+  width: 400px;
+  height: 0;
+  padding-top: 60px;
+  background-image: url("images/btn-sprite.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+.btn a:hover{
+  background-position: left bottom;
+}
+  </style>
+</head>
+<body>
+  <p class="btn"><a href="#">button</a></p>
+</body>
+</html>
